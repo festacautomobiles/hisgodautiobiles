@@ -6,7 +6,7 @@
   }
   
   .navbar {
-    background-image: url(./newimages/04-maserati-granturismo-trofeo-1664760012.jpg);
+    background-image: url(./images/bk1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,9 +16,14 @@
     margin-bottom: 50px;
     filter: brightness(80%);
     padding-bottom: 5px;
+    
   }
-  
-
+  .navbar a button {
+    background: #fff;
+    color: #288adf;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 100px;}
   
   
   
@@ -35,6 +40,7 @@
     list-style: none;
     display: inline-block;
     padding: 10px;
+    font-size: 20px;
   }
   
   .navbar a {
@@ -42,13 +48,6 @@
     color: #288adf;
   }
   
-  .navbar a button {
-    background: #fff;
-    color: #288adf;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 100px;
-  }
   
   .center {
     text-align: center;
@@ -56,7 +55,7 @@
   }
   
   .center h1 {
-    color: green;
+    color:green;
     margin-bottom: 10px;
   }
   
@@ -78,9 +77,6 @@
   .center p i {
     color: white;
   }
-  .image-write{
-    background-color: green;
-  }
   
   .price {
     display: flex;
@@ -89,7 +85,7 @@
     margin-bottom: 30px;
     flex-wrap: wrap;
     overflow: hidden;
-    box-shadow: 40px 40px 400px green;
+    background-color: black;
   }
   
   .price figure {
@@ -100,6 +96,7 @@
   
   .price figcaption {
     text-align: center;
+    color: white;
   }
   
   @media (max-width: 380px){
